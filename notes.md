@@ -12,7 +12,7 @@ console.log(greeting);
 - If one block of code takes a long time to execute then all others are forced to wait. For example, if you have a text box as a user input mixed with the generate prime numbers function in 'synchronous.js' then the text box will not work until the generation of prime numbers is complete
 
 ## Asynchronous programming
-Just like event listeners, asynchronous programming refers to the use of callback type sequences which react to certain events without interrupting the main thread.
+Just like event listeners, asynchronous programming refers to the use of callback type sequences which react to certain events without interrupting the main thread. Essentially functions are able to be run simultaneously without having to wait on one another, unless dependent on each other.
 
 ### Example (callbacks)
 - Notice the sequence...we got from doOperation to doStep1 and put its result into doStep2 and put its result into doStep3. 
